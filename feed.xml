@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-30T20:38:38+08:00</updated><id>/</id><title type="html">Feo’s Website</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/03/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-28T13:33:57+08:00</published><updated>2017-03-28T13:33:57+08:00</updated><id>/jekyll/update/2017/03/28/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/03/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">搞一个你自己的GitHubPage</title><link href="/web/2017/03/28/how-to-make-your-github-page.html" rel="alternate" type="text/html" title="搞一个你自己的GitHubPage" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>/web/2017/03/28/how-to-make-your-github-page</id><content type="html" xml:base="/web/2017/03/28/how-to-make-your-github-page.html">&lt;p&gt;不想买服务器，不想倒腾服务器，只想安安静静地写个博客装个逼，那GitHubPage是你不二之选&lt;/p&gt;
+
+&lt;p&gt;那么如何搭建一个属于自己的GitHubPage呢？&lt;/p&gt;
+
+&lt;p&gt;首先，你需要有个一GitHub的账号，然后你可以看看官方的教程 ，传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;官方教程很简单，简单到甚至访问你自己的页面都看不到Hello World ! 想要看到Hello World !需要粘贴下面的代码到你的index.html&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello Github Page&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;然后，为了更快地更好的写博客，不想倒腾数据库的话，就试试GithubPage推荐的Jekyll吧&lt;/p&gt;
+
+&lt;p&gt;Jekyll是一个静态页面生成器，需要Ruby环境，具体的步骤请进 传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://jekyllcn.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这东西只是个打包发布的工具，你要写博客，还需要学习一下markdown&lt;/p&gt;
+
+&lt;p&gt;中文传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://wowubuntu.com/markdown/basic.html&quot;&gt;MarkDown中文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;英文传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;MarkDown英文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我个人也推荐这个东西，它可以将你从页面排版和编写html中解放出来，把精力更多的集中到写博客。&lt;/p&gt;
+
+&lt;p&gt;最后，如果你觉得Jekyll的默认样式丑，还可以用它提供的各种主题&lt;/p&gt;
+
+&lt;p&gt;Jekyll主题 传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll使用技巧 传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://jekyll.tips&quot;&gt;Jekyll Tips&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">不想买服务器，不想倒腾服务器，只想安安静静地写个博客装个逼，那GitHubPage是你不二之选</summary></entry></feed>
