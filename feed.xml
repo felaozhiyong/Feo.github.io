@@ -1,16 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-30T20:38:38+08:00</updated><id>/</id><title type="html">Feo’s Website</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/03/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-28T13:33:57+08:00</published><updated>2017-03-28T13:33:57+08:00</updated><id>/jekyll/update/2017/03/28/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/03/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-01T13:37:25+08:00</updated><id>/</id><title type="html">Feo’s Website</title><subtitle></subtitle><entry><title type="html">来自2017愚人节的负能量</title><link href="/others/2017/04/01/april-foll's-day.html" rel="alternate" type="text/html" title="来自2017愚人节的负能量" /><published>2017-04-01T00:00:00+08:00</published><updated>2017-04-01T00:00:00+08:00</updated><id>/others/2017/04/01/april-foll's-day</id><content type="html" xml:base="/others/2017/04/01/april-foll's-day.html">&lt;p&gt;昨天，老板说，明天要上班，我是不信的，明天愚人节，机智如我怎么会上当？&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;但是，今天我还是来了，其实我就想看看有谁上当，然后我好嘲笑他一番。&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;这个迭代的活很多，搞得我有点累，每天干完活回到宿舍连游戏都不想打。&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;每天两点一线，忙忙碌碌的生活，让我觉得自己二十岁就已经死了，但是七十岁才下葬。&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">搞一个你自己的GitHubPage</title><link href="/web/2017/03/28/how-to-make-your-github-page.html" rel="alternate" type="text/html" title="搞一个你自己的GitHubPage" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>/web/2017/03/28/how-to-make-your-github-page</id><content type="html" xml:base="/web/2017/03/28/how-to-make-your-github-page.html">&lt;p&gt;不想买服务器，不想倒腾服务器，只想安安静静地写个博客装个逼，那GitHubPage是你不二之选&lt;/p&gt;
+&lt;p&gt;你是不是也有不想干活的时候，一般那种时候你都在干什么呢？&lt;/p&gt;
+
+&lt;p&gt;网上经常有人说，我好迷茫，翻译过来就是：我活多薪水低，想跳槽又没水平。&lt;/p&gt;
+
+&lt;p&gt;人生没有过不了的坎，只有过不完的坎，现在苦闷不要紧，苦闷的日子还长着呢。&lt;/p&gt;
+
+&lt;p&gt;下面我要安利几首歌：&lt;/p&gt;
+
+&lt;p&gt;歌名：边一个发明了返工&lt;br /&gt;
+演唱：My Little Airport&lt;br /&gt;
+传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://www.xiami.com/song/mQ42C071819?spm=a1z1s.3521865.23309997.49.QhzAUU&quot;&gt;点我&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;歌名：欢迎光临&lt;br /&gt;
+演唱：自由发挥&lt;br /&gt;
+传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://www.xiami.com/song/bf0tYMI34877?spm=a1z1s.3521865.23309997.2.ovmL0s&quot;&gt;点我&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;歌名：不想上班&lt;br /&gt;
+演唱：黄明志；肖央&lt;br /&gt;
+传送门 =&amp;gt; &lt;a target=&quot;_blank&quot; href=&quot;http://www.xiami.com/song/mSq3gV95be8?spm=a1z1s.3521865.23309997.11.KZ9PS2&quot;&gt;点我&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;保证您听完之后负能量爆棚，不再想上班！&lt;/p&gt;
+
+&lt;p&gt;Yes，So Sweet ！！！&lt;/p&gt;</content><author><name></name></author><summary type="html">昨天，老板说，明天要上班，我是不信的，明天愚人节，机智如我怎么会上当？</summary></entry><entry><title type="html">搞一个你自己的GitHubPage</title><link href="/web/2017/03/28/how-to-make-your-github-page.html" rel="alternate" type="text/html" title="搞一个你自己的GitHubPage" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>/web/2017/03/28/how-to-make-your-github-page</id><content type="html" xml:base="/web/2017/03/28/how-to-make-your-github-page.html">&lt;p&gt;不想买服务器，不想倒腾服务器，只想安安静静地写个博客装个逼，那GitHubPage是你不二之选&lt;/p&gt;
 
 &lt;p&gt;那么如何搭建一个属于自己的GitHubPage呢？&lt;/p&gt;
 
