@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Feo&#39;s Website</title>
-  <meta name="description" content="">
+  <title>交换两个变量的值，不使用第三个变量</title>
+  <meta name="description" content="方法一：算数法 var a = 10,b = 15; a = b - a;//a = 5, b = 15; b = b - a;//a = 5, b = 10; a = a + b;//a = 15, b = 10;">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/algorithm/2017/11/27/change-without-temp.html">
   <link rel="alternate" type="application/rss+xml" title="Feo&#39;s Website" href="/feed.xml">
   
   
@@ -56,44 +56,55 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">交换两个变量的值，不使用第三个变量</h1>
+    <p class="post-meta"><time datetime="2017-11-27T00:00:00+08:00" itemprop="datePublished">Nov 27, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="方法一算数法">方法一：算数法</h3>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">var a = 10,b = 15;
+a = b - a;//a = 5, b = 15;
+b = b - a;//a = 5, b = 10;
+a = a + b;//a = 15, b = 10;</code></pre></figure>
+
+<p>这样看有点蒙吧，需要画张图，就很明晰了。</p>
+
+<h3 id="方法二位运算">方法二：位运算</h3>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">var a=10,b=12; //a = 1010, b = 1100;
+a=a^b; //a = 0110, b = 1100;
+b=a^b; //a = 0110, b = 1010;
+a=a^b; //a = 1100(12), b=1010(10);</code></pre></figure>
+
+<h3 id="方法三地址运算">方法三：地址运算</h3>
+
+<p>类似方法一，只是不是计算其值，而是计算地址。好处是，不是简单类型，也可以实现。</p>
+
+<h3 id="方法四利用栈">方法四：利用栈</h3>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">int exchange(int x,int y)
+{
+ stack S;
+ push(S,x);
+ push(S,y);
+ x=pop(S);
+ y=pop(S);
+}</code></pre></figure>
+
+<p>其实这个方法似乎有点违规了</p>
+
+<h3 id="方法五利用数组">方法五：利用数组</h3>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">var a=1,b=2;a=[b,b=a][0];</code></pre></figure>
+
+  </div>
+
   
-  
-
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 27, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/algorithm/2017/11/27/change-without-temp.html">交换两个变量的值，不使用第三个变量</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 18, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/others/2017/04/18/my-heartstone.html">炉石传说-程序猿拓展包</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 28, 2017</span>
-
-        <h2>
-          <a class="post-link" href="/web/2017/03/28/how-to-make-your-github-page.html">搞一个你自己的GitHubPage</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </main>

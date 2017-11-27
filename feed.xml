@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-18T23:26:27+08:00</updated><id>/</id><title type="html">Feo’s Website</title><subtitle></subtitle><entry><title type="html">炉石传说-程序猿拓展包</title><link href="/others/2017/04/18/my-heartstone.html" rel="alternate" type="text/html" title="炉石传说-程序猿拓展包" /><published>2017-04-18T00:00:00+08:00</published><updated>2017-04-18T00:00:00+08:00</updated><id>/others/2017/04/18/my-heartstone</id><content type="html" xml:base="/others/2017/04/18/my-heartstone.html">&lt;p&gt;随着猛犸年的到了，我亲爱的金卡女王去了名人堂，好伤心，好愤怒！&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-27T23:40:50+08:00</updated><id>/</id><title type="html">Feo’s Website</title><subtitle></subtitle><entry><title type="html">交换两个变量的值，不使用第三个变量</title><link href="/algorithm/2017/11/27/change-without-temp.html" rel="alternate" type="text/html" title="交换两个变量的值，不使用第三个变量" /><published>2017-11-27T00:00:00+08:00</published><updated>2017-11-27T00:00:00+08:00</updated><id>/algorithm/2017/11/27/change-without-temp</id><content type="html" xml:base="/algorithm/2017/11/27/change-without-temp.html">&lt;h3 id=&quot;方法一算数法&quot;&gt;方法一：算数法&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;var a = 10,b = 15;
+a = b - a;//a = 5, b = 15;
+b = b - a;//a = 5, b = 10;
+a = a + b;//a = 15, b = 10;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;这样看有点蒙吧，需要画张图，就很明晰了。&lt;/p&gt;
+
+&lt;h3 id=&quot;方法二位运算&quot;&gt;方法二：位运算&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;var a=10,b=12; //a = 1010, b = 1100;
+a=a^b; //a = 0110, b = 1100;
+b=a^b; //a = 0110, b = 1010;
+a=a^b; //a = 1100(12), b=1010(10);&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;方法三地址运算&quot;&gt;方法三：地址运算&lt;/h3&gt;
+
+&lt;p&gt;类似方法一，只是不是计算其值，而是计算地址。好处是，不是简单类型，也可以实现。&lt;/p&gt;
+
+&lt;h3 id=&quot;方法四利用栈&quot;&gt;方法四：利用栈&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;int exchange(int x,int y)
+{
+ stack S;
+ push(S,x);
+ push(S,y);
+ x=pop(S);
+ y=pop(S);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;其实这个方法似乎有点违规了&lt;/p&gt;
+
+&lt;h3 id=&quot;方法五利用数组&quot;&gt;方法五：利用数组&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;var a=1,b=2;a=[b,b=a][0];&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">方法一：算数法 var a = 10,b = 15; a = b - a;//a = 5, b = 15; b = b - a;//a = 5, b = 10; a = a + b;//a = 15, b = 10;</summary></entry><entry><title type="html">炉石传说-程序猿拓展包</title><link href="/others/2017/04/18/my-heartstone.html" rel="alternate" type="text/html" title="炉石传说-程序猿拓展包" /><published>2017-04-18T00:00:00+08:00</published><updated>2017-04-18T00:00:00+08:00</updated><id>/others/2017/04/18/my-heartstone</id><content type="html" xml:base="/others/2017/04/18/my-heartstone.html">&lt;p&gt;随着猛犸年的到了，我亲爱的金卡女王去了名人堂，好伤心，好愤怒！&lt;/p&gt;
 
 &lt;p&gt;昨天暴雪爸爸让我抽到了金色的伊利斯.逐星，所以我还是选择了原谅她&lt;/p&gt;
 
